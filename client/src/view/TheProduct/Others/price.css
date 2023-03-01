@@ -1,0 +1,47 @@
+.price-list-container {
+	display: grid;
+	gap: 25px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.price-list-box {
+	background-color: rgba(255, 255, 255, 0.8);
+	/* text-align: center; */
+	padding: 12px;
+	border: 1px solid rgb(228, 228, 228);
+	border-radius: 5px;
+	height: 160px;
+	cursor: pointer;
+}
+
+.price-list-box:hover {
+	transform: scale(1.01);
+	transition: all 0.2s ease-in;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.transfer-width {
+	width: 300;
+	height: 300;
+}
+
+.transfer-top-left,
+.transfer-top-right {
+	width: 46.9%;
+	border-bottom: none !important;
+}
+
+.ant-table-tbody {
+	height: 200px !important;
+}
+
+.unassigned-list-container {
+	background-color: aliceblue;
+	padding: 20px;
+}
+
+.ant-form-item {
+	margin-bottom: 8px !important;
+}

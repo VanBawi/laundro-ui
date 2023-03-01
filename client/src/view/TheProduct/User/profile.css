@@ -1,0 +1,90 @@
+.user-profile {
+  display: flex;
+  /* height: 50vh; */
+  padding: 2rem;
+  align-content: space-evenly;
+  justify-content: space-around;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  border: 1px solid #e9eaec;
+  border-radius: 0px;
+}
+
+.outlet-stats {
+  display: flex;
+  justify-content: space-between;
+  max-width: 70%;
+}
+
+.outlet-list {
+  width: 30%;
+  margin-top: 3rem;
+}
+
+.user-info {
+  margin-top: 4.5rem;
+  width: 33%;
+}
+
+
+.num {
+  color: #16d3d3;
+}
+
+.asterisk::before {
+  content: "*";
+  color: red;
+  margin-right: 5px;
+}
+
+.margin-p {
+  margin: 1.5rem 0 !important;
+}
+
+.ant-modal-body.ant-modal-footer {
+  background: linear-gradient(120deg, #12cadf 0%, #1de4bd 100%);
+}
+
+.modal-password {
+  background: linear-gradient(120deg, #12cadf 0%, #1de4bd 100%);
+}
+
+#machine-table {
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 728px) {
+  .user-profile {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .outlet-list {
+    width: 100%;
+  }
+
+  .avatar {
+    margin: 0 auto;
+  }
+
+  .user-info {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .info {
+    display: block;
+    text-align: center !important;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 463px) {
+  .user-info {
+    width: 70%;
+  }
+}

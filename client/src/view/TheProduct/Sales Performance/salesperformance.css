@@ -1,0 +1,110 @@
+.card {
+	display: block !important;
+	position: relative;
+	background-color: #ffffff;
+	margin-bottom: 30px;
+	border: 1px solid #e9eaec;
+	border-radius: 0px;
+}
+
+.payment-modal {
+	position: absolute;
+}
+
+.box {
+	transition: box-shadow 0.1s linear;
+	padding: 0.5rem;
+	border-radius: 3px;
+}
+
+.box:hover {
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.card-head {
+	padding: 5px 25px;
+	position: relative;
+	background-color: transparent;
+	border-bottom: 0px;
+	min-height: 55px;
+	border-bottom: 1px solid #e9eaec !important;
+}
+
+.card-head-no-bdr {
+	padding: 15px 25px;
+	position: relative;
+	background-color: transparent;
+	border-bottom: 0px;
+	min-height: 55px;
+}
+
+.card-body {
+	padding: 25px;
+	position: relative;
+}
+
+.status-gradient-info.blue {
+	width: 10px;
+	height: 10px;
+	background-color: #ffffff;
+	border-radius: 50px;
+	border: 3px solid;
+	border-color: #c0c3c9;
+	margin-right: 0.5rem;
+	display: inline-block;
+	background: linear-gradient(120deg, #6a4ee1 0%, #05bdd7 100%);
+	border: 0px;
+}
+
+.status-gradient-info.green {
+	width: 10px;
+	height: 10px;
+	background-color: #ffffff;
+	border-radius: 50px;
+	border: 3px solid;
+	border-color: #c0c3c9;
+	margin-right: 0.5rem;
+	display: inline-block;
+	border: 0px;
+	background: linear-gradient(120deg, #1dccdf 0%, #1de4bd 100%);
+}
+
+.flex-even > * {
+	flex-basis: 100%;
+	min-width: 0;
+}
+
+.pie-chart-wrap {
+	/* width: 85%; */
+	margin: 0 auto;
+}
+
+.pie-child {
+	width: 40%;
+	align-self: center;
+}
+
+.g2-html-annotation {
+	font-size: 25px !important;
+}
+
+@media only screen and (max-width: 1100px) {
+	.pie-chart-wrap {
+		flex-wrap: wrap;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.pie-child {
+		width: 100%;
+	}
+
+	.flex-container {
+		flex-wrap: wrap;
+	}
+
+	.col-md-9,
+	.col-md-3 {
+		width: 100%;
+	}
+}

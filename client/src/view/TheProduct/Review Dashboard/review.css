@@ -1,0 +1,16 @@
+.review-list-container {
+	display: grid;
+	padding-bottom: 12px;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.transfer-width {
+	width: 300;
+	height: 300;
+}
+
+.transfer-top-left,
+.transfer-top-right {
+	width: 46.9%;
+	border-bottom: none !important;
+}

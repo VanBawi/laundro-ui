@@ -1,0 +1,132 @@
+.card-box-shadow {
+	background-color: rgba(255, 255, 255, 0.9);
+	height: 100px;
+	margin: 15px auto;
+	border-radius: 5px;
+	margin-right: 2em;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	transition: box-shadow 0.1s linear;
+	text-align: center;
+
+}
+
+.machines-list-container{
+	display: grid;
+	gap: 20px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.machines-list-box {
+	background-color: rgba(255, 255, 255, 0.9);
+	border: 1px solid rgb(228, 228, 228);
+	border-radius: 5px;
+	height: 7.5rem;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.sales-channel-container{
+	display: grid;
+	gap: 20px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.sales-channel-box {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid rgb(228, 228, 228);
+	border-radius: 5px;
+	height: 14rem;
+	cursor: pointer;
+}
+
+.card-box-shadow:hover {
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+.card-title {
+	text-align: center;
+	margin: 0;
+}
+
+.card-head {
+	border-bottom: 1px solid #e9eaec;
+	margin-bottom: 0.5em;
+}
+
+.total-sales {
+	margin-top: 1rem !important;
+	/* font-weight: bold; */
+	letter-spacing: 1px;
+}
+
+.channel-icon-width{
+	width: 4rem;
+	max-width:100%;
+	height: auto
+}
+
+.payment-text{
+	color: darkblue;
+	font-weight: bold;
+}
+
+.sidebar-updates {
+	/* width: 50vw; */
+	max-width: 18vw;
+	margin-top: 2.1rem;
+	margin-left: auto;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	padding: 1rem;
+}
+
+.sidebar-heading {
+	display: inline-block;
+	margin: 0.5rem 0 !important;
+	font-weight: bold;
+	padding-left: 0.5rem !important;
+	border-left: 1px solid black;
+}
+
+.updates-icon {
+	font-size: 2.3rem;
+	margin-top: 0.75rem;
+	margin-left: 0.5rem;
+	color: #12cbde;
+	cursor: pointer;
+}
+
+.sidebar-notice {
+	padding: 1rem;
+	margin-top: 3rem;
+}
+
+.contents-container {
+  display: grid;
+  grid-template-columns: 100% 0%;
+}
+
+
+@media only screen and (max-width: 850px) {
+
+	.sidebar-updates {
+		display: none;
+	}
+}
+
+
+
+@media (max-width: 767px) {
+  /* styles for mobile view */
+  .contents-container {
+    grid-template-columns: 1fr;
+  }
+}

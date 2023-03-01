@@ -1,0 +1,73 @@
+.register-form {
+	height: 100vh;
+	padding: 2rem 2rem;
+	display: grid;
+	place-items: center;
+}
+
+.content-contain {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.content-contain.register {
+	width: 30%;
+	display: block;
+	margin-left: auto;
+}
+
+.laundro-container-register {
+	margin: 10%;
+}
+
+.login-link {
+	margin-right: 1rem;
+	color: white !important;
+}
+
+.other-login {
+	color: black !important;
+}
+
+.mobile-terms {
+	display: none;
+}
+
+@media only screen and (max-width: 970px) {
+
+	.laundro-login-logo {
+		width: 75%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+
+	.desktop-terms {
+		display: none;
+	}
+
+	.mobile-terms {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 815px) {
+	.register-pg-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.laundro-container-register {
+		margin: 1.5rem 2rem 0 2rem;
+	}
+
+	.desktop-terms-register {
+		display: none;
+	}
+
+	.content-contain.register {
+		width: 90%;
+		margin-right: auto;
+	}
+}

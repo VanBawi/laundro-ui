@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import '~antd/dist/antd.css';
+
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+h1,
+h2,
+h3 {
+	font-weight: 600 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+p {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+a,
+a:visited,
+a:hover,
+a:active,
+a:link {
+	text-decoration: none !important;
+	/* color: inherit !important; */
+}
+
+:root {
+	--white: #fff;
+	--blue: #007bff;
+	--dark-blue: #043d79;
+	--purple: #6f42c1;
+	--red: #dc3545;
+	--yellow: #ffc107;
+	--green: #28a745;
+	--secondary: #6ab175;
+	--primary: #399d39;
+	--tertiary: #9dd8a2;
+
+	--black: #1a1a1a;
+	--black-light: #484848;
+	--dark-grey: #989898;
+	--grey: #c0c0c0;
+	--dark-grey-light: #999;
+	--light-grey: #f2f2f2;
+	--step-color-purple: #b299c6;
+	--step-color-white: #f0f7f5;
+	--step-color-lite-red: #fce0dd;
+	--step-color-green: #41b2a8;
+	--step-color-red: #f2485b;
+	--dark-theme: #10171f;
+	--dark-theme-tertiary: #263143;
+}
+
+th {
+	font-weight: bold !important;
+}
+
+.primary-blue {
+	color: #0092e0 !important;
+}
+
+
+.spinner {
+	height: 100vh;
+	width: 100vw;
+	background-color: #eeeeee;
+}
+
+.spinner-body {
+	position: fixed;
+	z-index: 10000;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

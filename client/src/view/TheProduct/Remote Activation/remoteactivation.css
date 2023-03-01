@@ -1,0 +1,167 @@
+.flex-container-ra {
+  display: grid;
+  gap: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.pay-now-btn {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #5adaff 0,
+    #5468ff 100%
+  );
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  height: 48px;
+  transition: box-shadow 0.15s, transform 0.15s;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+  width: 120px;
+  text-align: center;
+}
+
+.stop-now-btn {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #ff7b5a 0,
+    #e6391b 100%
+  );
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(139, 34, 11, 0.5) 0 -3px 0 inset;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  height: 48px;
+  transition: box-shadow 0.15s, transform 0.15s;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+  width: 120px;
+  text-align: center;
+}
+
+.pay-now-btn:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.current-coin {
+  width: 32px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  background: linear-gradient(120deg, #12cadf 0%, #1de4bd 100%);
+  color: #fff;
+  line-height: 30px;
+}
+
+
+.machine-green {
+  color: #ffffff;
+  background: linear-gradient(120deg, #1dccdf 0%, #1de4bd 100%);
+  line-height: 1;
+  padding: 0.5rem;
+  height: fit-content;
+  font-size: 100%;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  margin-right: 0.4rem;
+}
+
+.machine-red {
+  color: #ffffff;
+  background: linear-gradient(120deg, #e11111 0%, #ff2f2f 100%);
+  line-height: 1;
+  padding: 0.5rem;
+  height: fit-content;
+  font-size: 100%;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  margin-right: 0.4rem;
+}
+
+.machine-yellow {
+  color: #ffffff;
+  background: linear-gradient(120deg, #f0bc2f 0%, #f7ef5c 100%);
+  line-height: 1;
+  padding: 0.5rem;
+  height: fit-content;
+  font-size: 100%;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  margin-right: 0.4rem;
+}
+
+.card {
+  flex: 100%;
+}
+
+.payment-modal {
+  padding: 3rem;
+  position: absolute;
+  background-color: white;
+  z-index: 9;
+  border: 2px solid black;
+}
+
+.grid-container {
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  row-gap: 2rem;
+}
+
+
+h2 {
+  margin: 0.5rem !important;
+}
+
+.image-box{
+  width: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+.image-contain{
+  width: 40px;
+  margin-right: 0.5rem;
+  object-fit: contain;
+}
+
+
+.input-box-style{
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+
+@media only screen and (max-width: 460px) {
+  #title {
+    display: block;
+  }
+}
